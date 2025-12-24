@@ -1,0 +1,61 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# Test binary, build with `go test -c`
+*.test
+
+# Cross-compilation temporary files
+*.cross
+
+# Dependency directories (remove the comment below to ignore all vendor/ folders)
+# vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+dist/
+build/
+release/
+
+# Environment specific files
+.env
+.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Generated files
+*.pb.go
+*_generated.go
+
+# Coverage
+coverage.out
+*.cov
+
+# Compiled Go files
+*.a
+*.o
