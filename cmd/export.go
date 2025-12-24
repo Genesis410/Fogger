@@ -86,16 +86,6 @@ func exportCSV(results []*models.AnalysisResult, filename string) error {
 	return nil
 }
 
-// countSignalsByCategory counts signals in a specific category
-func countSignalsByCategory(signals []models.Signal, category string) int {
-	count := 0
-	for _, signal := range signals {
-		if signal.Category == category {
-			count++
-		}
-	}
-	return count
-}
 
 // MonitorDomain continuously monitors a domain
 func MonitorDomain(domain string, interval time.Duration, duration time.Duration) {

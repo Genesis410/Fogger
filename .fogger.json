@@ -1,0 +1,1 @@
+{"scoring":{"gambling_ui":0.3,"payment_signal":0.25,"infra_correlation":0.2,"domain_churn":0.15,"cdn_pattern":0.1},"thresholds":{"high":0.75,"medium":0.5}}
